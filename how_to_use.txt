@@ -1,0 +1,2 @@
+python3 shodan4all.py -s 'title:"sign in gitlab" country:US' -c 'polito="xxx!"' -nd -ap state:LA ##searches for devices in LA and all of US
+python3 shodan4all.py -s 'title:"sign in gitlab"' -c 'polito="xxx!"' -nd -ap state:LA ## searches for devices only in LA
