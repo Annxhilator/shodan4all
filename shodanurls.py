@@ -35,5 +35,4 @@ elif not args.dont_chain:
                 else:
                     shodan_urls.append(shodan_url+"%20"+parameter+"%20"+parameter2)
                     shodan_urls.append(shodan_url+"%20"+parameter+"%20"+parameter2+"&page=2")
-        parameters.remove(parameter)
-print(shodan_urls)
+        parameters.remove(parameter)
